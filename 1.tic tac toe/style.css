@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(129, 128, 128);
+}
+.container{
+    text-align: center;
+    margin-top: 10%;
+}
+.head{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 20px;
+}
+.sub{
+    color: blue;
+    font-weight: 200;
+}
+.px{
+    color: blue;
+}
+#bt1, #bt2, #bt3, #bt4, #bt5,
+    #bt6, #bt7, #bt8, #bt9{
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+   
+    #res{
+    
+        /* padding-top: 20px; */
+        gap: 1rem;
+        margin-top: 20px;
+        width: 200px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        border-radius: 20px;
+        border-style: none;
+        color: white;
+        height: 42px; 
+        background: rgba(12, 228, 210, 0.911);
+    }
+    #res:hover{
+      background: #fff;
+      color:rgba(12, 228, 210, 0.911) ;
+    }
+    #print{
+        color: blue;
+        font-size: 20px;
+        font-weight: 700;
+    }
